@@ -1,0 +1,46 @@
+body {
+    background-color:antiquewhite;
+    max-width: 1920px;
+    width: 100%;
+    overflow: hidden;
+
+    font-family:monospace;
+}
+
+.container {
+    width: 700px;
+    height: 365px;
+    margin:250px 30%;
+    border: 2px solid black;
+
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 42px;
+}
+
+span {
+    font-size: 112px;
+}
+
+
+.buttons {
+    width:350px;
+    height: 100px;
+
+    margin:0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#LowerCount, #AddCount {
+    height: 50px;
+    width:150px;
+
+    font-size: 16px;
+}
